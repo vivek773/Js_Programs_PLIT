@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,7 +11,7 @@
       console.log("Catalan number");
 
       // formula of catalan number is C(i) * C(n-i-1) //
-
+     let n = prompt( "Enter Number");
       function catalan(n) {
         if (n <= 1) {
           return 1;
@@ -23,9 +23,9 @@
         return printCatalan;
       }
 
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i <n; i++) {
         console.log(catalan(i));
       }
     </script>
   </body>
-</html> -->
+</html>
